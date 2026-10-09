@@ -25,7 +25,7 @@ AI 에이전트 활용에 관한 최근 연구·발표에서 뽑은 16개 방법
 ### Claude Code
 
 ```bash
-git clone https://github.com/<your-id>/prompt-architect.git
+git clone https://github.com/heejune9902-create/prompt-architect.git
 mkdir -p ~/.claude/skills
 cp -r prompt-architect/skills/prompt-architect ~/.claude/skills/
 ```
