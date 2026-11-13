@@ -4,7 +4,9 @@ English | [한국어](../README.md)
 
 A Claude skill that **designs the prompt and instruction files** for a task you want to hand off.
 
-It contains 16 method modules drawn from recent research and talks on using AI agents (verification loops, computing in code, context management, checking against ground truth, least privilege, separating the monitor, fixed classification, and more). It diagnoses the task, then **picks and combines only the methods it needs**. The point is not to attach every technique.
+It contains 19 method modules drawn from recent research and talks on using AI agents (verification loops, computing in code, context management, checking against ground truth, least privilege, separating the monitor, fixed classification, tool selection, effort adjustment, evidence-linked memory, and more). It diagnoses the task, then **picks and combines only the methods it needs**. The point is not to attach every technique.
+
+The current version is **v2 (2026-11-13)**. See the [changelog](CHANGELOG.md) for added modules and other updates.
 
 ## What it does
 
@@ -22,6 +24,7 @@ It contains 16 method modules drawn from recent research and talks on using AI a
 | `en/skills/prompt-architect/SKILL.md` | The Claude skill itself |
 | `en/guide/prompt-architect-guide.md` | Guide version to attach to AIs that can't use skills (ChatGPT, Codex, etc.) |
 | `skills/`, `guide/` | Korean originals |
+| `en/CHANGELOG.md` | Version history in English |
 
 ## Installation
 
